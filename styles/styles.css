@@ -190,10 +190,6 @@ input[type="checkbox"]:checked~.btn-dark:after {
 
 .estilo-capa {
   background-color: white !important;
-  border: 1px solid #a1a1a1b2;
-  -webkit-box-shadow: 0px 0px 8px 2px #0000004f;
-  -moz-box-shadow: 0px 0px 8px 2px #0000004f;
-  box-shadow: 0px 0px 8px 2px #0000004f;
 }
 
 #capa h1 {
@@ -213,18 +209,43 @@ input[type="checkbox"]:checked~.btn-dark:after {
   color: black;
 }
 
-#links {
+#capa h3 {
+  font-size: 20px;
+  padding-top: 2px;
+  padding-bottom: 0px;
+  color: black;
+}
+
+#problemas {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
 
-#links .card-body {
- 
+#problemas h3 {
+  font-size: 40px;
+  padding-bottom: 10px;
+  color: black;
 }
 
-#links .card-img-right {
-  width: 150px !important;
-  height: 150px !important;
+#testemunhos {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
+
+#testemunhos h3 {
+  font-size: 40px;
+  padding-bottom: 10px;
+  color: black;
+}
+
+#comovencer {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+#comovencer h3 {
+  font-size: 40px;
+  padding-bottom: 10px;
+  color: black;
+}
+
 
 footer {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
@@ -260,6 +281,9 @@ footer p {
 
 @media screen and (max-width: 767px){
 
+  #capa h1 {
+    line-height: 36px;
+  }
   
 }
 
