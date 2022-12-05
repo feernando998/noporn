@@ -275,12 +275,11 @@ footer p {
 }
 
 
-@media screen and (max-width: 1199px){
-
-}
-
 @media screen and (max-width: 991px){
-
+ 
+  .text-dark {
+    font-size: 29px;
+  }
 
 }
 
