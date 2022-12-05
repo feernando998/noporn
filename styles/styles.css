@@ -247,6 +247,16 @@ input[type="checkbox"]:checked~.btn-dark:after {
 }
 
 
+/* --- PAGINA SOBRE ---*/
+#sobre {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+#sobre p {
+  font-size: 18px;
+  text-align: justify;
+}
+
 footer {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
   font-size: 20px;
