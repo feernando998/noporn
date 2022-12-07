@@ -247,6 +247,39 @@ input[type="checkbox"]:checked~.btn-dark:after {
   text-align: justify;
 }
 
+/* --- PAGINA CONTATO ---*/
+#contato {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+#contato p {
+  font-size: 20px;
+}
+
+#contato label {
+  font-size: 20px;
+  font-variant: normal;
+}
+
+#contato input {
+  font-size: 20px;
+}
+
+#contato textarea {
+  font-size: 20px;
+}
+
+#contato ::placeholder {
+  font-size: 17px;
+}
+
+.btn-outline-primary {
+  font-size: 17px !important;
+  font-weight: 600 !important;
+  width: 8rem !important;
+  color: #008eff;
+}
+
 footer {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
   font-size: 20px;
