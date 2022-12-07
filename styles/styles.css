@@ -226,16 +226,6 @@ input[type="checkbox"]:checked~.btn-dark:after {
   color: black;
 }
 
-#testemunhos {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-}
-
-#testemunhos h3 {
-  font-size: 40px;
-  padding-bottom: 10px;
-  color: black;
-}
-
 #comovencer {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 }
