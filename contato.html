@@ -78,22 +78,23 @@
                                 <div class="form-group ">
                                     <label for="FormEmail">Email</label>
                                     <input type="email" name="email" class="form-control" id="FormEmail"
-                                        placeholder="seuemail@email.com">
+                                        placeholder="seuemail@email.com" required>
                                 </div>
                                 <div class="form-group ">
                                     <label for="FormSubject">Assunto</label>
                                     <input type="text" name="subject" class="form-control" id="FormSubject"
-                                        placeholder="Testemunho...">
+                                        placeholder="Testemunho..." required>
                                 </div>
                                 <div class="form-group ">
                                     <label for="FormMessage">Mensagem</label>
                                     <textarea type="text" name="message" cols="30" rows="10" class="form-control"
                                         id="FormMessage" placeholder="Mensagem..." required></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-outline-primary mb-4">Enviar</button>
-                                <input type="hidden" name="accessKey" value="b5c96506-77b2-40fc-bc8c-da51079fccba">
 
+                                <input type="text" name="honeypot" style="display: none;"> 
+                                <input type="hidden" name="accessKey" value="c06d9c95-f4c6-4c54-8d21-f95df572572f">
                                 <input type="hidden" name="redirectTo" value="https://vencapornografia.netlify.app/contato.html">
+                                <button type="submit" class="btn btn-outline-primary mb-4">Enviar</button>
 
                             </form>
                         </div>
