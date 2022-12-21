@@ -243,7 +243,7 @@ input[type="checkbox"]:checked~.btn-dark:after {
 }
 
 #sobre p {
-  font-size: 18px;
+  font-size: 20px;
   text-align: justify;
 }
 
@@ -278,6 +278,19 @@ input[type="checkbox"]:checked~.btn-dark:after {
   font-weight: 600 !important;
   width: 8rem !important;
   color: #008eff;
+}
+
+/* --- PAGINA DICAS ---*/
+#dicas {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+#dicas p {
+  font-size: 18px;
+}
+
+#dicas ul, ol {
+  font-size: 20px;
 }
 
 footer {

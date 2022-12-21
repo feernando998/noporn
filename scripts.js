@@ -9,7 +9,7 @@ function validarContato(){
         alert("Digite seu nome!")
         return false
     }else{
-        alert("Mensagem enviada com sucesso. Retornarei assim que possível se necessário! Obrigado, " + nome + ".")
+        alert("Mensagem enviada com Sucesso. Retornaremos assim que possível se necessário! Obrigado, " + nome + ".")
     }
 
 }
