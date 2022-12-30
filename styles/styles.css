@@ -293,6 +293,54 @@ input[type="checkbox"]:checked~.btn-dark:after {
   font-size: 20px;
 }
 
+/* --- PAGINA AJUDA ---*/
+#sites, #aplicativos, #recursos {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+#sites h2 {
+  font-size: 30px;
+  margin: 10px;
+}
+
+#sites h3 {
+  font-size: 20px;
+  align-items: center;
+}
+
+#sites .btn-outline-primary {
+  margin-bottom: 20px;
+}
+
+#aplicativos h2 {
+  font-size: 30px;
+  margin: 10px;
+}
+
+#aplicativos h3 {
+  font-size: 20px;
+  align-items: center;
+}
+
+#aplicativos .btn-outline-primary {
+  margin-bottom: 20px;
+}
+
+#recursos h2 {
+  font-size: 30px;
+  margin: 10px;
+}
+
+#recursos h3 {
+  font-size: 20px;
+  align-items: center;
+}
+
+#recursos .btn-outline-primary {
+  margin-bottom: 20px;
+}
+
+/* --- FOOTER ---*/
 footer {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
   font-size: 20px;
